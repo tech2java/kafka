@@ -15,6 +15,7 @@ mkdir data/zookeeper
 # dataDir=/home/stephane/kafka_2.13-3.1.0/data/zookeeper
 
 # start zookeeper (make sure nothing is running on port 2181)
+zookeeper-server-start E:\Learning\softwares\kafka\config\zookeeper.properties
 zookeeper-server-start.sh ~/kafka_2.13-3.1.0/config/zookeeper.properties
 
 # Open a new terminal (we leave zookeeper running in previous terminal)
@@ -28,6 +29,7 @@ mkdir data/kafka
 # log.dirs=/home/stephane/kafka_2.13-3.1.0/data/kafka
 
 # start Kafka
+kafka-server-start  E:\Learning\softwares\kafka\config\server.properties
 kafka-server-start.sh ~/kafka_2.13-3.1.0/config/server.properties
 
 # Kafka is running! 
